@@ -1,0 +1,73 @@
+body {
+    gap: 5px;
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    background-image: url("https://wallpaperaccess.com/full/1115087.jpg");
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+button {
+    font-family: monospace;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+button:hover {
+    border-radius: 14px;
+}
+button:active {
+    border-radius: 18px;
+}
+#container {
+    height: 50vh;
+    width: 50vw;
+    border-width: 20px;
+    border-color: deeppink;
+    border-style: solid;
+    border-radius: 20px;
+}
+#remakeGridButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#remakeGridButton {
+    padding-top: 5px;
+    max-width: 10vw;
+    min-width: 35px;
+    max-height: 5vh;
+    flex: auto;
+}
+#colorChangers {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: deeppink;
+    border-width: 10px;
+}
+#pinkButton {
+    background-color: deeppink;
+}
+#violetButton {
+    background-color: blueviolet;
+}
+#blue {
+    background-color: mediumblue;
+}
+.deeppink {
+    background-color: deeppink;
+}
+.blueviolet {
+    background-color: blueviolet;
+}
+.blue {
+    background-color: mediumblue;
+}
